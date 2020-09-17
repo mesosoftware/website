@@ -1,0 +1,139 @@
+/*******************Generic*********************/
+
+html {
+	max-height: 100vh;
+}
+
+html, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+a:link,
+a:visited,
+a:active, 
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "meso font";
+	src: url(assets/meso_font.ttf);
+}
+
+h1 {
+	font-size: 40px;
+}
+
+/********************Header********************/
+
+header {
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	height: 70vh;
+	background-color: #071d32;
+	background-size: cover;
+}
+
+.header-navbar {
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	padding-top: 3vh;
+	width: 65%;
+	height: 5vh;
+}
+
+.header-navbar-logo {
+	margin: auto;
+	padding: 0;
+	font-family: 'meso font', sans-serif;
+	font-size: 3em;
+	color: white;
+	float: left;
+	text-align: left;
+	justify-content: left;
+	align-items: left;
+}
+
+.header-navbar-links {
+	margin: auto;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: white;	
+	word-spacing: 40px;
+	float: right;
+	text-align:  right;
+	justify-content: right;
+	align-items: right;
+}
+
+.header-content {
+	margin: auto;
+	padding: 0;
+	padding-top: 28vh;
+	width: 70%;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	justify-content: middle;
+	align-items: middle;
+}
+
+/********************Footer********************/
+
+footer {
+	margin: auto;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	color: #fff;	
+	background-color: #071d32;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	clear: both;
+}
+
+/*******************Devices*********************/
+
+@media screen and (max-width: 1200px) {
+
+.header-navbar,
+.header-content,
+.footer {
+	width: 90%;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+.header-content {
+	padding-top: 21vh;
+}
+
+.header-navbar-links, .header-navbar-logo {
+	width: 40%;
+}
+
+}
+
+@media screen and (max-height: 700px) {
+
+}
