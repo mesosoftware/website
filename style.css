@@ -34,17 +34,12 @@ header {
 	padding: 0;
 	width: 100%;
 	height: 70vh;
-	background-color: #071d32;
-	background-size: cover;
+	background: rgb(10,41,71);
+	background: radial-gradient(circle, rgba(10,41,71,1) 0%, rgba(5,21,37,1) 100%); 
 }
 
 .header-navbar {
 	margin: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 0;
 	padding-top: 3vh;
 	width: 65%;
@@ -79,11 +74,25 @@ header {
 .header-content {
 	margin: auto;
 	padding: 0;
-	padding-top: 28vh;
+	padding-top: 26vh;
 	width: 70%;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-size: 20px;
+	text-align: center;
+	justify-content: middle;
+	align-items: middle;
+}
+
+.header-notice {
+	margin: auto;
+	padding: 0;
+	padding-top: 24vh;
+	width: 65%;
+	height: 5vh;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: white;	
 	text-align: center;
 	justify-content: middle;
 	align-items: middle;
@@ -120,13 +129,17 @@ footer {
 
 @media screen and (max-width: 900px) {
 
+.header-content {
+	padding-top: 19vh;
+}
+
+.header-notice {
+	padding-top: 12vh;
+}
+
 }
 
 @media screen and (max-width: 480px) {
-
-.header-content {
-	padding-top: 21vh;
-}
 
 .header-navbar-links, .header-navbar-logo {
 	width: 40%;
