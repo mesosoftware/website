@@ -129,12 +129,16 @@ footer {
 
 @media screen and (max-width: 900px) {
 
+header {
+	height: 100vh;
+}
+
 .header-content {
-	padding-top: 19vh;
+	padding-top: 30vh;
 }
 
 .header-notice {
-	padding-top: 12vh;
+	padding-top: 30vh;
 }
 
 }
