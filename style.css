@@ -33,7 +33,7 @@ header {
 	margin: auto;
 	padding: 0;
 	width: 100%;
-	height: 70vh;
+	height: 100vh;
 	background: rgb(10,41,71);
 	background: radial-gradient(circle, rgba(10,41,71,1) 0%, rgba(5,21,37,1) 100%); 
 }
@@ -74,7 +74,7 @@ header {
 .header-content {
 	margin: auto;
 	padding: 0;
-	padding-top: 26vh;
+	padding-top: 40vh;
 	width: 70%;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
@@ -87,7 +87,7 @@ header {
 .header-notice {
 	margin: auto;
 	padding: 0;
-	padding-top: 24vh;
+	padding-top: 40vh;
 	width: 65%;
 	height: 5vh;
 	font-family: 'Open Sans', sans-serif;
@@ -130,7 +130,6 @@ footer {
 @media screen and (max-width: 900px) {
 
 header {
-	height: 100vh;
 }
 
 .header-content {
