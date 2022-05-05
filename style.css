@@ -127,38 +127,36 @@ footer {
 /*******************Devices*********************/
 
 @media screen and (max-width: 1200px) {
-
 .header-navbar,
 .header-content,
 .footer {
 	width: 90%;
 }
-
 }
 
 @media screen and (max-width: 900px) {
-
-header {
-}
-
 .header-content {
 	padding-top: 30vh;
 }
-
 .header-notice {
 	padding-top: 30vh;
 }
-
 }
 
 @media screen and (max-width: 480px) {
-
-.header-navbar-links, .header-navbar-logo {
+.header-navbar-links,
+.header-navbar-logo {
 	width: 40%;
 }
-
+.header-content {
+	padding-top: 10vh;
+}
+.header-notice {
+    padding-top: 10vh;
+}
 }
 
 @media screen and (max-height: 700px) {
 
 }
+
