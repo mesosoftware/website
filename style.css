@@ -1,9 +1,8 @@
-/*******************Generic*********************/
+/*******************General*********************/
 
 html {
 	max-height: 100vh;
 }
-
 html, body, p {
 	margin: 0;
 	padding: 0;
@@ -22,18 +21,15 @@ a:hover {
 	font-family: "meso font";
 	src: url(assets/meso_font.ttf);
 }
-
 h1 {
-	font-size: 40px;
+	font-size: 200%;
 }
-
 h2 {
-    font-size: 24px;
+    font-size: 130%;
 	font-weight: normal;
 }
-
 p {
-    font-size: 18px;
+    font-size: 100%;
 }
 
 /********************Header********************/
@@ -83,7 +79,7 @@ header {
 .header-content {
 	margin: auto;
 	padding: 0;
-	padding-top: 33vh;
+	padding-top: 30vh;
 	width: 99%;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
@@ -96,7 +92,7 @@ header {
 .header-notice {
 	margin: auto;
 	padding: 0;
-	padding-top: 32vh;
+	padding-top: 24vh;
 	width: 100%;
 	height: 5vh;
 	font-family: 'Open Sans', sans-serif;
@@ -107,56 +103,77 @@ header {
 	align-items: middle;
 }
 
-/********************Footer********************/
-
-footer {
-	margin: auto;
-	padding: 0;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	width: 100%;
-	height: 40px;
-	text-align: center;
-	color: #fff;	
-	background-color: #071d32;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	clear: both;
-}
-
 /*******************Devices*********************/
 
-@media screen and (max-width: 1200px) {
-.header-navbar,
-.header-content,
-.footer {
-	width: 90%;
+/* iPhone 11 Pro - Portrait */
+@media only screen and (max-device-width: 480px) and (min-device-height: 600px) {
+h1 {
+	font-size: 130%;
 }
+h2 {
+    font-size: 100%;
+	font-weight: normal;
 }
-
-@media screen and (max-width: 900px) {
+p {
+    font-size: 80%;
+}
+.header-navbar {
+	width: 80%;
+}
 .header-content {
-	padding-top: 30vh;
+	padding-top: 16vh;
 }
 .header-notice {
-	padding-top: 30vh;
-}
-}
-
-@media screen and (max-width: 480px) {
-.header-navbar-links,
-.header-navbar-logo {
-	width: 40%;
-}
-.header-content {
 	padding-top: 10vh;
 }
+}
+
+/* iPhone 11 Pro - Landscape */
+@media only screen and (min-device-width: 700px) and (max-device-height: 500px)  {
+h1 {
+	font-size: 120%;
+}
+h2 {
+    font-size: 90%;
+	font-weight: normal;
+}
+p {
+    font-size: 70%;
+}
+.header-navbar {
+	width: 80%;
+}
+.header-content {
+	padding-top: 16vh;
+}
 .header-notice {
-    padding-top: 10vh;
+	padding-top: 4vh;
+}
+} 
+
+/* iPad - Portrait */
+@media only screen and (min-device-width: 760px) and (max-device-width: 1024px) and (min-device-height: 700px) {
+.header-navbar {
+	width: 75%;
+}
+.header-content {
+	padding-top: 22vh;
+}
+.header-notice {
+	padding-top: 18vh;
 }
 }
 
-@media screen and (max-height: 700px) {
-
+/* iPad - Landscape */
+@media only screen and (min-device-width: 760px) and (max-device-width: 1400px) and (min-device-height: 700px) {
+.header-navbar {
+	width: 75%;
+}
+.header-content {
+	padding-top: 22vh;
+}
+.header-notice {
+	padding-top: 18vh;
+}
 }
 
