@@ -35,7 +35,7 @@ p {
 	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	background:linear-gradient(to bottom, #133455 5%, #091b2f 100%);
 	background-color:#0a2947;
-	border:1px solid #6483a1;
+	border:1px solid #65788b;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -46,8 +46,8 @@ p {
 	text-decoration:none;
 }
 .button:hover {
-	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
-	background-color:#5972a7;
+	background:linear-gradient(to bottom, #1e3e61 5%, #0f243b 100%);
+	background-color:#0a2947;
 }
 .button:active {
 	position:relative;
